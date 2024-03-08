@@ -13,7 +13,7 @@ public class Dao {
 	Session session;
 
 	public User getUser(String email) {
-		User u;
+		User u = null;
 
 		factory = ConnectionProvider.createFactory();
 		session = factory.openSession();
