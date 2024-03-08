@@ -1,0 +1,17 @@
+package com.helper;
+
+import org.hibernate.SessionFactory;
+
+public class ConnectionProvider {
+	private SessionFactory factory;
+	
+	public SessionFactory getFactory() {
+		
+		try {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+}
